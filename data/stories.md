@@ -92,3 +92,21 @@
    - action_weather
 * goodbye
    - utter_goodbye
+
+## Generated Story 1857102136273407016
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* inform{"location": "islamabad"}
+    - slot{"location": "islamabad"}
+    - action_weather
+    - slot{"location": "islamabad"}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1857102136273407016
+* inform{"location": "islamabad"}
+    - slot{"location": "islamabad"}
+    - action_weather
+    - slot{"location": "islamabad"}

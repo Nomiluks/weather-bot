@@ -1,11 +1,16 @@
 {
   "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "location"
+      ]
+    },
     "null": {
       "slots": [
         "location"
       ]
     },
-    "action_listen": {
+    "action_weather": {
       "slots": [
         "location"
       ]
@@ -28,7 +33,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190611-010735",
+  "trained_at": "20190611-013008",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.2"
