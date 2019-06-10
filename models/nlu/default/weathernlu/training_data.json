@@ -2,24 +2,32 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "greet",
-        "text": "Hello"
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
       },
       {
         "intent": "goodbye",
         "text": "goodbye"
       },
       {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 22,
-            "end": 28,
-            "value": "Berlin",
-            "entity": "location"
-          }
-        ],
-        "text": "What's the weather in Berlin at the moment?"
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
       },
       {
         "intent": "greet",
@@ -46,24 +54,16 @@
         "text": "hey there"
       },
       {
-        "intent": "goodbye",
-        "text": "bye"
-      },
-      {
-        "intent": "goodbye",
-        "text": "goodbye"
-      },
-      {
-        "intent": "goodbye",
-        "text": "bye bye"
-      },
-      {
-        "intent": "goodbye",
-        "text": "see ya"
-      },
-      {
-        "intent": "goodbye",
-        "text": "see you later"
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "What's the weather in Berlin at the moment?"
       },
       {
         "intent": "inform",
