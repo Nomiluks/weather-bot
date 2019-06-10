@@ -5,6 +5,7 @@ actions:
 - utter_goodbye
 - utter_ask_location
 - action_weather
+- utter_action_fallback
 config:
   store_entities_as_slots: true
 entities:
@@ -23,6 +24,8 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_action_fallback:
+  - text: Please rephrase it I did not understand
   utter_ask_location:
   - text: In what location?
   utter_goodbye:

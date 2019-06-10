@@ -20,10 +20,12 @@ templates:
     - 'Bye bye :('
   utter_ask_location:
     - 'In what location?'
-
+  utter_action_fallback:
+    - 'Please rephrase it I did not understand'
 
 actions:
  - utter_greet
  - utter_goodbye
  - utter_ask_location
  - action_weather
+ - utter_action_fallback

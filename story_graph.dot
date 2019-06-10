@@ -10,7 +10,7 @@ digraph  {
 9 [class="intent dashed active", label="  ?  ", shape=rect];
 10 [class="intent active", fillcolor=lightblue, label=Hi, shape=rect, style=filled];
 11 [class=intent, fillcolor=lightblue, label=inform, shape=rect, style=filled];
-12 [class="intent active", fillcolor=lightblue, label="what is the weather in Lahore", shape=rect, style=filled];
+12 [class="intent active", fillcolor=lightblue, label="what is the weather in lahore", shape=rect, style=filled];
 13 [class=intent, fillcolor=lightblue, label="informlocation italy", shape=rect, style=filled];
 14 [class=intent, fillcolor=lightblue, label=goodbye, shape=rect, style=filled];
 0 -> "-1"  [class="", key=NONE, label=""];

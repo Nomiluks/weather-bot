@@ -6,6 +6,7 @@ from __future__ import unicode_literals
 import logging
 import rasa_core
 from rasa_core.agent import Agent
+from rasa_core.policies.fallback import FallbackPolicy
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
@@ -18,11 +19,15 @@ logger = logging.getLogger(__name__)
 def train_dialogue(domain_file = 'weather_domain.yml',
 					model_path = './models/dialogue',
 					training_data_file = './data/stories.md'):
-					
-	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=500, batch_size=50)])
-	data = agent.load_data(training_data_file)	
 	
+	fallback = FallbackPolicy(fallback_action_name="utter_action_fallback", 
+							  core_threshold=0.3, nlu_threshold=0.3)
 
+	agent = Agent(domain_file, policies = [MemoizationPolicy(), 
+										   KerasPolicy(max_history=3, epochs=500, batch_size=50),
+										   fallback
+										  ])
+	data = agent.load_data(training_data_file)
 	agent.train(data)
 				
 	agent.persist(model_path)
