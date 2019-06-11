@@ -6,6 +6,7 @@ actions:
 - utter_ask_location
 - action_weather
 - utter_action_fallback
+- utter_acknowledge_reply
 config:
   store_entities_as_slots: true
 entities:
@@ -18,16 +19,23 @@ intents:
     use_entities: true
 - inform:
     use_entities: true
+- acknowledge:
+    use_entities: true
 slots:
   location:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_acknowledge_reply:
+  - text: I always feel great to help you
+  - text: My Pleasure! :)
   utter_action_fallback:
   - text: Please rephrase it I did not understand
+  - text: Sometimes it's hard to understand humans. Can you please rephrase it?
   utter_ask_location:
   - text: In what location?
+  - text: Pleae provide the name of city?
   utter_goodbye:
   - text: Talk to you later.
   - text: Bye bye :(

@@ -21,13 +21,13 @@ def train_dialogue(domain_file = 'weather_domain.yml',
 					training_data_file = './data/stories.md'):
 	
 	fallback = FallbackPolicy(fallback_action_name="utter_action_fallback", 
-							  core_threshold=0.3, nlu_threshold=0.3)
+							  core_threshold=0.5, nlu_threshold=0.5)
 
 	agent = Agent(domain_file, policies = [MemoizationPolicy(), 
-										   KerasPolicy(max_history=3, epochs=500, batch_size=50),
+										   KerasPolicy(max_history=4, epochs=1000, batch_size=100),
 										   fallback
 										  ])
-	data = agent.load_data(training_data_file)
+	data = agent.load_data(training_data_file, augmentation_factor=20)
 	agent.train(data)
 				
 	agent.persist(model_path)

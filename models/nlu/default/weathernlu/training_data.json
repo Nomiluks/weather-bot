@@ -26,6 +26,14 @@
         "text": "see you later"
       },
       {
+        "intent": "goodbye",
+        "text": "thanks"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay bye"
+      },
+      {
         "intent": "greet",
         "text": "Hello"
       },
@@ -52,6 +60,30 @@
       {
         "intent": "greet",
         "text": "hey there"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "thats great"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "good work"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "so nice of you bot"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "your have done a great job bot"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "your are super cool"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "your are great weather bot"
       },
       {
         "intent": "inform",
@@ -220,10 +252,124 @@
           }
         ],
         "text": "The weather condition in Italy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Lahore",
+            "entity": "location"
+          }
+        ],
+        "text": "What is the weather in Lahore?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Islamabad",
+            "entity": "location"
+          }
+        ],
+        "text": "What is the weather in Islamabad?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Rawalpindi",
+            "entity": "location"
+          }
+        ],
+        "text": "What is the weather in Rawalpindi?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Islamabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Islamabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Lahore",
+            "entity": "location"
+          }
+        ],
+        "text": "Lahore"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "in Italy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "city is London"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ],
+        "text": "at Barcelona"
       }
     ],
     "regex_features": [],
     "lookup_tables": [],
-    "entity_synonyms": []
+    "entity_synonyms": [
+      {
+        "value": "Islamabad",
+        "synonyms": [
+          "ISB",
+          "isb",
+          "islmabad"
+        ]
+      },
+      {
+        "value": "Lahore",
+        "synonyms": [
+          "lhr",
+          "LHR",
+          "RWP",
+          "rwp"
+        ]
+      }
+    ]
   }
 }

@@ -5,6 +5,8 @@
 - bye bye
 - see ya
 - see you later
+- thanks
+- okay bye
 
 ## intent:greet
 - Hello
@@ -14,6 +16,15 @@
 - heya
 - howdy
 - hey there
+
+## intent:acknowledge
+- thats great
+- good work
+- so nice of you bot
+- your have done a great job bot
+- your are super cool
+- your are great weather bot
+
 
 ## intent:inform
 - What's the weather in [Berlin](location) at the moment?
@@ -32,3 +43,24 @@
 - Oh, sorry, in [Italy](location)
 - Tell me the weather in [Vilnius](location)
 - The weather condition in [Italy](location)
+- What is the weather in [Lahore](location)?
+- What is the weather in [Islamabad](location)?
+- What is the weather in [Rawalpindi](location)?
+- [Islamabad](location)
+- [Lahore](location)
+- in [Italy](location)
+- city is [London](location)
+- at [Barcelona](location)
+
+## synonym:Islamabad
+- ISB
+- isb
+- islmabad
+
+## synonym:Lahore
+- lhr 
+- LHR
+
+## synonym Rawalpindi
+- RWP 
+- rwp

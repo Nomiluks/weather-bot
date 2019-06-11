@@ -5,12 +5,12 @@
         "location"
       ]
     },
-    "null": {
+    "action_weather": {
       "slots": [
         "location"
       ]
     },
-    "action_weather": {
+    "null": {
       "slots": [
         "location"
       ]
@@ -19,12 +19,27 @@
       "slots": [
         "location"
       ]
+    },
+    "utter_greet": {
+      "slots": [
+        "location"
+      ]
+    },
+    "action_restart": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_acknowledge_reply": {
+      "slots": [
+        "location"
+      ]
     }
   },
-  "python": "3.6.8",
+  "python": "3.6.7",
   "max_histories": [
     5,
-    3,
+    4,
     null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
@@ -33,7 +48,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190611-013008",
+  "trained_at": "20190611-162306",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.2"

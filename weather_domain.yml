@@ -7,6 +7,7 @@ intents:
  - greet
  - goodbye
  - inform
+ - acknowledge
 
 
 entities:
@@ -15,13 +16,22 @@ entities:
 templates:
   utter_greet:
     - 'Hello! How can I help?'
+  
   utter_goodbye:
     - 'Talk to you later.'
     - 'Bye bye :('
+  
   utter_ask_location:
     - 'In what location?'
+    - "Pleae provide the name of city?"
+
   utter_action_fallback:
     - 'Please rephrase it I did not understand'
+    - "Sometimes it's hard to understand humans. Can you please rephrase it?"
+  
+  utter_acknowledge_reply:
+    - "I always feel great to help you"
+    - "My Pleasure! :)"
 
 actions:
  - utter_greet
@@ -29,3 +39,4 @@ actions:
  - utter_ask_location
  - action_weather
  - utter_action_fallback
+ - utter_acknowledge_reply
