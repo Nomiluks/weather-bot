@@ -80,7 +80,7 @@ ansible/site.retry
 ai/bots
 
 # jupyter notebooks
-*.ipynb
+# *.ipynb
 
 
 # evaluation script outputs
