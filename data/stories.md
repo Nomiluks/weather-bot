@@ -3,7 +3,6 @@
     - utter_goodbye
     - action_restart
 
-
 ## Generated Story 7140897453030292184
 * ask_greet
     - utter_greet_reply
@@ -64,7 +63,6 @@
 * goodbye
     - utter_goodbye
 
-
 ## Generated Story -3351152636827275381
 * greet
     - utter_greet
@@ -73,7 +71,6 @@
     - action_weather
 * goodbye
     - utter_goodbye
-
 
 ## Generated Story 8921121480760034253
 * greet
@@ -86,20 +83,17 @@
 * goodbye
     - utter_goodbye
 
-
 ## Generated Story -5208991511085841103
     - slot{"location": "London"}
     - action_weather
 * goodbye
     - utter_goodbye
 
-
 ## Generated Story -5208991511085841103
     - slot{"location": "London"}
     - action_weather
 * goodbye
     - utter_goodbye
-
 
 ## story_001
 * greet
@@ -109,9 +103,9 @@
 * inform{"location":"London"}
    - slot{"location": "London"}
    - action_weather
+   - slot{"location": "London"}
 * goodbye
    - utter_goodbye
-
 
 ## story_002
 * greet
@@ -119,9 +113,9 @@
 * inform{"location":"Paris"}
    - slot{"location": "Paris"}
    - action_weather
+   - slot{"location": "Paris"}
 * goodbye
    - utter_goodbye
-
 
 ## story_003
 * greet
@@ -131,9 +125,9 @@
 * inform{"location":"Vilnius"}
    - slot{"location": "Vilnius"}
    - action_weather
+   - slot{"location": "Vilnius"}
 * goodbye
    - utter_goodbye
-
 
 ## story_004
 * greet
@@ -141,9 +135,9 @@
 * inform{"location":"Italy"}
    - slot{"location": "Italy"}
    - action_weather
+   - slot{"location": "Italy"}
 * goodbye
    - utter_goodbye
-
 
 ## story_005
 * greet
@@ -153,9 +147,9 @@
 * inform{"location":"Lithuania"}
    - slot{"location": "Lithuania"}
    - action_weather
+   - slot{"location": "Lithuania"}
 * goodbye
    - utter_goodbye
-
 
 ## Generated Story 1857102136273407016
 * greet
@@ -168,7 +162,6 @@
     - slot{"location": "islamabad"}
 * goodbye
     - utter_goodbye
-
 
 ## Generated Story 910823096599746570
 * greet
@@ -201,14 +194,12 @@
 * goodbye
     - utter_goodbye
 
-
 ## Generated Story -7593981946657834437
 * acknowledge
     - utter_acknowledge_reply
 * goodbye
     - utter_goodbye
     - action_restart
-
 
 ## Generated Story 3128424170965411825
 * greet

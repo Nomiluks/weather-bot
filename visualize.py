@@ -3,7 +3,7 @@ from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
 
 if __name__ == '__main__':
-    agent = Agent("weather_domain.yml",
+    agent = Agent("domain.yml",
                   policies=[MemoizationPolicy(), KerasPolicy()])
 
     agent.visualize("data/stories.md",
