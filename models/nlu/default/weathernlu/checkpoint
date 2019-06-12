@@ -1,2 +1,0 @@
-model_checkpoint_path: "/Users/noman/Downloads/weather_bot_sample/./models/nlu/default/weathernlu/component_5_EmbeddingIntentClassifier.ckpt"
-all_model_checkpoint_paths: "/Users/noman/Downloads/weather_bot_sample/./models/nlu/default/weathernlu/component_5_EmbeddingIntentClassifier.ckpt"
