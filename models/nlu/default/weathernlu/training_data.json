@@ -302,6 +302,18 @@
         "entities": [
           {
             "start": 0,
+            "end": 10,
+            "value": "Rawalpindi",
+            "entity": "location"
+          }
+        ],
+        "text": "Rawalpindi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
             "end": 9,
             "value": "Islamabad",
             "entity": "location"
@@ -356,6 +368,42 @@
           }
         ],
         "text": "at Barcelona"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "Rawalpindi",
+            "entity": "location"
+          }
+        ],
+        "text": "in Rawalpindi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Islamabad",
+            "entity": "location"
+          }
+        ],
+        "text": "at Islamabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Lahore",
+            "entity": "location"
+          }
+        ],
+        "text": "my city is Lahore"
       }
     ],
     "regex_features": [],
@@ -366,7 +414,8 @@
         "synonyms": [
           "ISB",
           "isb",
-          "islmabad"
+          "islmabad",
+          "Isb"
         ]
       },
       {
@@ -374,8 +423,15 @@
         "synonyms": [
           "lhr",
           "LHR",
+          "Lhr"
+        ]
+      },
+      {
+        "value": "Rawalpindi",
+        "synonyms": [
           "RWP",
-          "rwp"
+          "rwp",
+          "Rwp"
         ]
       }
     ]

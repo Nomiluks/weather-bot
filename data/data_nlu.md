@@ -48,21 +48,22 @@
 - What is the weather in [Lahore](location)?
 - What is the weather in [Islamabad](location)?
 - What is the weather in [Rawalpindi](location)?
+- [Rawalpindi](location)
 - [Islamabad](location)
 - [Lahore](location)
 - in [Italy](location)
 - city is [London](location)
 - at [Barcelona](location)
+- in [Rawalpindi](location)
+- at [Islamabad](location)
+- my city is [Lahore](location)
 
 ## synonym:Islamabad
-- ISB
 - isb
 - islmabad
 
 ## synonym:Lahore
-- lhr 
-- LHR
+- lhr
 
-## synonym Rawalpindi
-- RWP 
+## synonym:Rawalpindi
 - rwp
