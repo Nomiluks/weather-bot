@@ -8,27 +8,17 @@ actions:
 - utter_ask_location
 - action_weather
 - utter_acknowledge_reply
-config:
-  store_entities_as_slots: true
 entities:
 - location
-forms: []
 intents:
-- ask_greet:
-    use_entities: true
-- greet:
-    use_entities: true
-- acknowledge:
-    use_entities: true
-- inform:
-    use_entities: true
-- goodbye:
-    use_entities: true
+- ask_greet
+- greet
+- acknowledge
+- inform
+- goodbye
 slots:
   location:
-    auto_fill: true
-    initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: text
 templates:
   utter_acknowledge_reply:
   - text: I always feel great to help you

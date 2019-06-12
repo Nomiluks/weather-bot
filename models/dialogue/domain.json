@@ -1,6 +1,7 @@
 {
   "states": [
     "intent_acknowledge",
+    "intent_ask_greet",
     "intent_goodbye",
     "intent_greet",
     "intent_inform",
@@ -15,10 +16,11 @@
     "prev_action_default_ask_rephrase",
     "prev_action_back",
     "prev_utter_greet",
+    "prev_utter_action_fallback",
+    "prev_utter_greet_reply",
     "prev_utter_goodbye",
     "prev_utter_ask_location",
     "prev_action_weather",
-    "prev_utter_action_fallback",
     "prev_utter_acknowledge_reply"
   ]
 }

@@ -2,6 +2,54 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "acknowledge",
+        "text": "that's great"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "good work"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "so nice of you bot"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "your have done a great job bot"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "your are super cool"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "your are great weather bot"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "great"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "awesome!"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "that's a quick response bot"
+      },
+      {
+        "intent": "ask_greet",
+        "text": "how are you?"
+      },
+      {
+        "intent": "ask_greet",
+        "text": "how are you bot?"
+      },
+      {
+        "intent": "ask_greet",
+        "text": "Hey, how you are doing?"
+      },
+      {
         "intent": "goodbye",
         "text": "goodbye"
       },
@@ -62,36 +110,16 @@
         "text": "hey there"
       },
       {
-        "intent": "acknowledge",
-        "text": "that's great"
+        "intent": "greet",
+        "text": "hi"
       },
       {
-        "intent": "acknowledge",
-        "text": "good work"
+        "intent": "greet",
+        "text": "Hi"
       },
       {
-        "intent": "acknowledge",
-        "text": "so nice of you bot"
-      },
-      {
-        "intent": "acknowledge",
-        "text": "your have done a great job bot"
-      },
-      {
-        "intent": "acknowledge",
-        "text": "your are super cool"
-      },
-      {
-        "intent": "acknowledge",
-        "text": "your are great weather bot"
-      },
-      {
-        "intent": "acknowledge",
-        "text": "great"
-      },
-      {
-        "intent": "acknowledge",
-        "text": "awesome!"
+        "intent": "greet",
+        "text": "hi"
       },
       {
         "intent": "inform",
@@ -404,34 +432,52 @@
           }
         ],
         "text": "my city is Lahore"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "lahore",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather in lahore"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "Rawalpindi",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather in rwp"
       }
     ],
     "regex_features": [],
     "lookup_tables": [],
     "entity_synonyms": [
       {
+        "value": "Rawalpindi",
+        "synonyms": [
+          "rwp"
+        ]
+      },
+      {
         "value": "Islamabad",
         "synonyms": [
-          "ISB",
           "isb",
-          "islmabad",
-          "Isb"
+          "islmabad"
         ]
       },
       {
         "value": "Lahore",
         "synonyms": [
-          "lhr",
-          "LHR",
-          "Lhr"
-        ]
-      },
-      {
-        "value": "Rawalpindi",
-        "synonyms": [
-          "RWP",
-          "rwp",
-          "Rwp"
+          "lhr"
         ]
       }
     ]

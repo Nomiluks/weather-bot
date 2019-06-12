@@ -15,12 +15,12 @@
         "location"
       ]
     },
-    "utter_goodbye": {
+    "utter_greet_reply": {
       "slots": [
         "location"
       ]
     },
-    "utter_greet": {
+    "utter_acknowledge_reply": {
       "slots": [
         "location"
       ]
@@ -30,7 +30,12 @@
         "location"
       ]
     },
-    "utter_acknowledge_reply": {
+    "utter_greet": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_goodbye": {
       "slots": [
         "location"
       ]
@@ -48,7 +53,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190612-165745",
+  "trained_at": "20190612-173531",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.2"

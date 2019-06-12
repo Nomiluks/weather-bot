@@ -4,6 +4,10 @@
     - action_restart
 
 
+## Generated Story 7140897453030292184
+* ask_greet
+    - utter_greet_reply
+
 ## Generated Story 3320800183399695936
 * greet
     - utter_greet
@@ -197,3 +201,21 @@
 * goodbye
     - utter_goodbye
 
+
+## Generated Story -7593981946657834437
+* acknowledge
+    - utter_acknowledge_reply
+* goodbye
+    - utter_goodbye
+    - action_restart
+
+
+## Generated Story 3128424170965411825
+* greet
+    - utter_greet
+* inform{"location": "Rawalpindi"}
+    - slot{"location": "Rawalpindi"}
+    - action_weather
+    - slot{"location": "Rawalpindi"}
+* acknowledge
+    - utter_acknowledge_reply

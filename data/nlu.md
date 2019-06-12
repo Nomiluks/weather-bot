@@ -1,3 +1,19 @@
+## intent:acknowledge
+- that's great
+- good work
+- so nice of you bot
+- your have done a great job bot
+- your are super cool
+- your are great weather bot
+- great
+- awesome!
+- that's a quick response bot
+
+## intent:ask_greet
+- how are you?
+- how are you bot?
+- Hey, how you are doing?
+
 ## intent:goodbye
 - goodbye
 - bye
@@ -16,17 +32,9 @@
 - heya
 - howdy
 - hey there
-
-## intent:acknowledge
-- that's great
-- good work
-- so nice of you bot
-- your have done a great job bot
-- your are super cool
-- your are great weather bot
-- great
-- awesome!
-
+- hi
+- Hi
+- hi
 
 ## intent:inform
 - What's the weather in [Berlin](location) at the moment?
@@ -57,6 +65,8 @@
 - in [Rawalpindi](location)
 - at [Islamabad](location)
 - my city is [Lahore](location)
+- what is the weather in [lahore](location)
+- what is the weather in [rwp](location:Rawalpindi)
 
 ## synonym:Islamabad
 - isb
