@@ -63,7 +63,7 @@
       },
       {
         "intent": "acknowledge",
-        "text": "thats great"
+        "text": "that's great"
       },
       {
         "intent": "acknowledge",
@@ -84,6 +84,14 @@
       {
         "intent": "acknowledge",
         "text": "your are great weather bot"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "great"
+      },
+      {
+        "intent": "acknowledge",
+        "text": "awesome!"
       },
       {
         "intent": "inform",

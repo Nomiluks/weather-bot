@@ -18,12 +18,14 @@
 - hey there
 
 ## intent:acknowledge
-- thats great
+- that's great
 - good work
 - so nice of you bot
 - your have done a great job bot
 - your are super cool
 - your are great weather bot
+- great
+- awesome!
 
 
 ## intent:inform
