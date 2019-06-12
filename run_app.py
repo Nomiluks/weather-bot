@@ -9,6 +9,6 @@ nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/weathernlu')
 action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 agent = Agent.load('./models/dialogue', interpreter = nlu_interpreter, action_endpoint = action_endpoint)
 
-input_channel = SlackInput('xoxb-2260192451-651383793042-KlXRL99UpQuZY0keSdRJFjjm')#your bot user authentication token
+input_channel = SlackInput('xoxb')#your bot user authentication token
 
 agent.handle_channels([input_channel], 5004, serve_forever=True)
