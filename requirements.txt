@@ -68,7 +68,7 @@ msgpack-numpy==0.4.3.2
 multidict==4.5.2
 murmurhash==1.0.2
 networkx==2.2
-numpy==1.16.0
+numpy==1.22.0
 packaging==18.0
 pandoc==1.0.2
 pika==0.12.0
